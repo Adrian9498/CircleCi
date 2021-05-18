@@ -79,10 +79,7 @@ dependencies {
 }
 
 webdriverBinaries {
-    chromedriver{
-        version = '2.45.0'
-        architecture = 'X86'
-    }
+    chromedriver '78.0.3904.105'
     geckodriver '0.26.0'
 }
 
